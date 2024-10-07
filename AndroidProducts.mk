@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_corfu.mk
+    $(LOCAL_DIR)/twrp_corfu.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_corfu-user \
-    omni_corfu-userdebug \
-    omni_corfu-eng
+    twrp_corfu-user \
+    twrp_corfu-userdebug \
+    twrp_corfu-eng
