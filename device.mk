@@ -7,6 +7,18 @@
 
 LOCAL_PATH := device/motorola/corfu
 # A/B
+AB_OTA_PARTITIONS += \
+    boot \
+    dtbo \
+    lk \
+    preloader \
+    product \
+    system \
+    vendor \
+    vbmeta \
+    vbmeta_system \
+    vendor_boot
+
 AB_OTA_POSTINSTALL_CONFIG += \
     RUN_POSTINSTALL_system=true \
     POSTINSTALL_PATH_system=system/bin/otapreopt_script \
