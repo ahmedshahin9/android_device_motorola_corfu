@@ -10,15 +10,6 @@ DEVICE_PATH := device/motorola/corfu
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
 
-# A/B
-AB_OTA_UPDATER := true
-AB_OTA_PARTITIONS += \
-    vbmeta_system \
-    boot \
-    system \
-    product \
-    system_ext \
-    vendor
 BOARD_USES_RECOVERY_AS_BOOT := true
 
 # Architecture
