@@ -22,8 +22,3 @@ PRODUCT_MODEL := moto g41
 PRODUCT_MANUFACTURER := motorola
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
-
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="corfu_g-user 12 S3RWS32.138-29-5-1 dbc77 release-keys"
-
-BUILD_FINGERPRINT := motorola/corfu_g/corfu:12/S3RWS32.138-29-5-1/dbc77:user/release-keys
