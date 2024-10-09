@@ -6,6 +6,10 @@
 #
 
 LOCAL_PATH := device/motorola/corfu
+
+# AB
+AB_OTA_UPDATER := true
+
 # A/B
 AB_OTA_PARTITIONS += \
     boot \
