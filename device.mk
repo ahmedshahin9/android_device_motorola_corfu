@@ -14,14 +14,10 @@ AB_OTA_UPDATER := true
 AB_OTA_PARTITIONS += \
     boot \
     dtbo \
-    lk \
-    preloader \
     product \
     system \
     vendor \
-    vbmeta \
-    vbmeta_system \
-    vendor_boot
+    vbmeta 
 
 AB_OTA_POSTINSTALL_CONFIG += \
     RUN_POSTINSTALL_system=true \
