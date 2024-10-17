@@ -117,7 +117,6 @@ PLATFORM_VERSION := 16.1.0
 # TWRP Configuration
 TW_THEME := portrait_hdpi
 TW_EXTRA_LANGUAGES := false
-TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_SCREEN_BLANK_ON_BOOT := true
 TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
 TW_DEVICE_VERSION := linux_man
@@ -136,3 +135,5 @@ TW_MTP_DEVICE := "Moto G41"
 TW_USE_TOOLBOX := true
 TW_INCLUDE_ADBD := false
 TW_INCLUDE_SELINUX := false
+TW_INPUT_BLACKLIST := "accelerometer"
+TW_NEW_ION_HEAP := true
