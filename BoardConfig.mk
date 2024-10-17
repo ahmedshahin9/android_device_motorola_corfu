@@ -90,8 +90,6 @@ TARGET_USERIMAGES_USE_F2FS := true
 # Platform
 TARGET_BOARD_PLATFORM := mt6768
 
-#prop
-TARGET_RECOVERY_INITRC := $(DEVICE_PATH)/recovery/root/init.recovery.mt6768.rc
 
 # Recovery
 TARGET_RECOVERY_PIXEL_FORMAT := BGRA_8888
