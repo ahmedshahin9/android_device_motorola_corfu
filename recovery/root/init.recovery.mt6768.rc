@@ -25,7 +25,3 @@ insmod /vendor/lib/modules/goodix_mtk_tee.ko
 insmod /vendor/lib/modules/goodix_mtk_gtx8_ts_tools_mmi.ko
 
 
-on boot
-    ...
-    # Load your touchscreen module here
-    insmod /lib/modules/<your_touchscreen_module>.ko
