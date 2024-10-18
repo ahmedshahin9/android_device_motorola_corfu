@@ -19,9 +19,10 @@ on post-fs
 
 #kernel modules
 insmod /vendor/lib/modules/goodix_mtk_gtx8_gesture_mmi.ko
-insmod /vendor/lib/modules/focaltech_mtk_v2_mmi.ko
 insmod /vendor/lib/modules/goodix_mtk_gtx8_mmi.ko
 insmod /vendor/lib/modules/goodix_mtk_tee.ko
 insmod /vendor/lib/modules/goodix_mtk_gtx8_ts_tools_mmi.ko
 
+on init
+    symlink /vendor/lib/modules /lib/modules
 
