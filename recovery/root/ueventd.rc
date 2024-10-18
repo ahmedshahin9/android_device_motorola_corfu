@@ -75,7 +75,14 @@ subsystem dma_heap
 /dev/vhost-vsock          0600   virtmanager root
 
 #kernel modules
-/vendor/lib/modules/* 0644  root root
+/vendor/lib/modules/* 0660  root root
+
+#lib 
+/vendor/lib/*.so  0660 root root
+/vendor/lib64/*.so  0660  root root
+/system/lib/*.so  0660  root root
+/system/lib64/*.so  0660  root root
+
 
 # sysfs properties
 /sys/devices/platform/trusty.*      trusty_version        0440  root   log
