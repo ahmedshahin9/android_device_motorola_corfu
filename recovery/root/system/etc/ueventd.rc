@@ -74,6 +74,9 @@ subsystem dma_heap
 /dev/kvm                  0600   virtmanager root
 /dev/vhost-vsock          0600   virtmanager root
 
+#kernel modules
+/vendor/lib/modules/* 0644  root root
+
 # sysfs properties
 /sys/devices/platform/trusty.*      trusty_version        0440  root   log
 /sys/devices/virtual/input/input*   enable      0660  root   input
