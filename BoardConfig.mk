@@ -56,7 +56,6 @@ BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 TARGET_KERNEL_CONFIG := corfu_defconfig
 TARGET_KERNEL_SOURCE := kernel/motorola/corfu
-BOARD_VENDOR_KERNEL_MODULES := vendor/lib/modules/*.ko
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true
