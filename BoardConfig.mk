@@ -138,3 +138,4 @@ TW_MTP_DEVICE := "Moto G41"
 TW_USE_TOOLBOX := true
 TW_INCLUDE_ADBD := false
 TW_INCLUDE_SELINUX := false
+TW_LOAD_VENDOR_MODULES := "goodix_mtk_tee.ko goodix_mtk_gtx8_ts_tools_mmi.ko goodix_mtk_gtx8_mmi.kogoodix_mtk_gtx8_gesture_mmi.ko focaltech_mtk_v2_mmi.ko"
