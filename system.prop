@@ -1,0 +1,2 @@
+persist.sys.usb.mtp.enabled=1    # Enable MTP 
+sys.usb.config=mtp,adb
