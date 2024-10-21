@@ -13,12 +13,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from corfu device
-$(call inherit-product, device/motorola/corfu/device.mk)
+$(call inherit-product, device/motorola/penangf/device.mk)
 
-PRODUCT_DEVICE := corfu
-PRODUCT_NAME := twrp_corfu
+PRODUCT_DEVICE := penangf
+PRODUCT_NAME := twrp_penangf
 PRODUCT_BRAND := motorola
-PRODUCT_MODEL := moto g41
+PRODUCT_MODEL := moto g23
 PRODUCT_MANUFACTURER := motorola
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
