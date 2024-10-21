@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-LOCAL_PATH := device/motorola/corfu
+LOCAL_PATH := device/motorola/penangf
 
 # AB
 AB_OTA_UPDATER := true
