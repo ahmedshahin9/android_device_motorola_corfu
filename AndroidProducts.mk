@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_corfu.mk
+    $(LOCAL_DIR)/twrp_penangf.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_corfu-user \
-    twrp_corfu-userdebug \
-    twrp_corfu-eng
+    twrp_penangf-user \
+    twrp_penangf-userdebug \
+    twrp_penangf-eng
